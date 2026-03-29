@@ -8,12 +8,17 @@ public class HolaMundoController {
 
     @GetMapping("/hola")
     public String holaMundo() {
-        return "¡Aranea y astra hola!";
+        return "¡Aranea y Astra hola!";
     }
 
     @GetMapping("/chau")
     public String chauMundo() {
-        return "¡Aranea y astra adios!";
+        return "¡Aranea y Astra adios!";
+    }
+
+    @GetMapping("/poto")
+    public String potoMundo() {
+        return "¡Aranea y Astra poto!";
     }
 }
 
